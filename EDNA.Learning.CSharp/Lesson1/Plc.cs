@@ -111,7 +111,8 @@ namespace EDNA.Learning.CSharp.Lesson1
         {
             var rand = new Random();
             var d = rand.NextDouble();
-            float temperature = 23.0f + (float)d;
+            int multiplier = rand.NextDouble() > 0.5d ? -1 : 1;
+            float temperature = 23.0f + (float)multiplier * (float)d;
             var bytesToWrite = BitConverter.GetBytes(temperature);
             for (int i = 0; i< 4; i++)
             {
