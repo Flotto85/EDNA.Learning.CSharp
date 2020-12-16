@@ -6,4 +6,8 @@
     <Copyright>EMAG GmbH &amp; Co. KG</Copyright>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\_Projekte\EDNA.Learning.CSharp\EDNA.Learning.CSharp\EDNA.Learning.CSharp.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
