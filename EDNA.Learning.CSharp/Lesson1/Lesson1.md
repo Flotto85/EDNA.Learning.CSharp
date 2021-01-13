@@ -11,4 +11,4 @@
 * Lies den Temperaturwert von der Schnittstelle so lange aus, bis die Esc Taste gedrückt wird und gibt ihn in der Konsole aus. Setze dafür den Cursor vor jedem Schreibvorgang auf den Anfang der Zeile zurück, damit der Temperaturwert immer in dieselbe Zeile geschrieben wird.
 * Denk daran, die Verbindung zu trennen, bevor das Programm beendet wird
 
-![Example](example.png)
+![Example](Example.PNG)
